@@ -1,0 +1,18 @@
+{
+  "name"          : "Express will stop",
+  "description"   : "A light middleware that handles SIGTERM, refuses new requests and optionally exits the process when there are no more active requests",
+  "url"           : "https://github.com/mihs/express_will_stop",
+  "author"        : "Mihnea Scafes <mihnea@nagemus.com>",
+  "contributors"  : [],
+  "dependencies"  : {
+    "debug": "0.7.x",
+  },
+  "devDependencies" : {},
+  "engines": { 
+    "node": "0.8.x",
+    "npm":  "1.2.x"
+  },
+  "lib"           : ".",
+  "main"          : "lib/express_will_stop.js",
+  "version"       : "0.1.0"
+}

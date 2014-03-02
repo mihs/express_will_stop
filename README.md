@@ -1,4 +1,4 @@
-express_will_stop
+pause
 =================
 
-A light middleware that handles SIGTERM, refuses new requests and optionally exits the process when there are no active requests.
+A light middleware that handles SIGTERM, refuses new requests and emits events when there are no active requests.
